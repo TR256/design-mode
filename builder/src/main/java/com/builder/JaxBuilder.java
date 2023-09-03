@@ -3,6 +3,7 @@ package com.builder;
 /**
  * @author:tr256
  * @date:2022/8/26
+ * 武器大师
  * 具体的建造者
  */
 public class JaxBuilder extends HeroBuilder{

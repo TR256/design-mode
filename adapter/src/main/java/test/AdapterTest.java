@@ -1,8 +1,7 @@
 package test;
 
-import org.adapter.MicroUSB;
-import org.adapter.TypeC;
-import org.adapter.WireAdaptor;
+import org.adapter.one.TypeC;
+import org.adapter.one.WireAdaptor;
 
 /**
  * @author:tr256
@@ -11,6 +10,6 @@ import org.adapter.WireAdaptor;
 public class AdapterTest {
 
     public static void main(String[] args) {
-        MicroUSB microUSB = new WireAdaptor(new TypeC()).transfer();
+        new WireAdaptor(new TypeC()).charge();
     }
 }

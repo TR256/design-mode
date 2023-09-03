@@ -16,6 +16,8 @@
         <module>strategy</module>
         <module>adapter</module>
         <module>singleton</module>
+        <module>prototype</module>
+        <module>chain</module>
     </modules>
 
     <properties>

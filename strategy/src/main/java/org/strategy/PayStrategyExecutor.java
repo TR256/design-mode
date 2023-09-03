@@ -17,4 +17,5 @@ public class PayStrategyExecutor {
     public void executeStrategy(){
         payStrategy.pay();
     }
+
 }
